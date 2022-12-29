@@ -1,6 +1,6 @@
 check50: 
   chechs:
     hello world:
-    - run: python3 hello.py
-    stdout: Hello, winux!
+    - run: bash greeting.sh
+    stdout: Hello, Linux!
     exit: 0
