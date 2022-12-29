@@ -1,5 +1,4 @@
 check50: 
-  checks: "greeting.sh"
   files: &check50_files
     - !exclude "*"
     - !require greeting.sh
