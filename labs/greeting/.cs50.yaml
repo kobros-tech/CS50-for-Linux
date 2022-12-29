@@ -1,5 +1,4 @@
 check50: 
-  chechs: checks.py
-  files:
+  files: &check50_files
     - !exclude "*"
     - !require greeting.sh
