@@ -1,6 +1,0 @@
-check50: 
-  chechs:
-    greet:
-    - run: bash greeting.sh
-    stdout: Hello, Linux!
-    exit: 0
