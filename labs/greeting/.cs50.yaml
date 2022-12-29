@@ -2,4 +2,4 @@ check50:
   chechs: checks.py
   files:
     - !exclude "*"
-    - !include "greeting.sh"
+    - !require greeting.sh
