@@ -1,4 +1,5 @@
 check50: 
+  checks: "greeting.c"
   files: 
     - !exclude "*"
     - !require greeting.c
