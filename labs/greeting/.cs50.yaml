@@ -1,6 +1,5 @@
 check50: 
-  chechs:
-    hello world:
-    - run: bash greeting.sh
-    stdout: Hello, Linux!
-    exit: 0
+  chechs: checks.py
+  files:
+    - !exclude "*"
+    - !include "greeting.sh"
