@@ -1,5 +1,7 @@
 check50: 
-  checks: "greeting.c"
-  files: 
+  checks: "greeting.sh"
+  files: &check50_files
     - !exclude "*"
-    - !require greeting.c
+    - !require greeting.sh
+  submit50:
+    files: *check50_files
