@@ -1,0 +1,14 @@
+The Red Hat Family
+RHEL
+CentOS
+Fedora
+Oracle Linux
+
+The SUSE Family
+SLES
+openSUSE
+
+The Debian Family
+Debian
+Ubuntu
+Linux Mint
