@@ -8,5 +8,5 @@ def exists():
 @check50.check()
 def greeting():
     """distro family names succeeds"""
-    solution = open("solution.txt", "r")
+    solution = open("/home/ubuntu/.local/share/check50/kobros-tech/cs50-for-linux/problems/distributions1/solution.txt", "r")
     check50.run("bash distributions1.sh").stdout(solution.read()).exit()
