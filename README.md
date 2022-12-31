@@ -1,1 +1,1 @@
-# CS50-for-Linux
+# Scratch Linux Course
